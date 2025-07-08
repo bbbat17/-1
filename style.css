@@ -1,0 +1,622 @@
+#점{
+    color: white;
+}
+#도서관글씨{
+    position:absolute;
+    width:100px;
+    color: black;
+    transform:translate(840px,52px);
+    z-index:1;
+    text-align: center;
+}
+#도서관{
+    position:absolute;
+    height:52px;
+    width:74px;
+    border: 3px solid;
+    transform: translate(851px,62px);
+    z-index:1;
+}
+#과학관글씨{
+    position:absolute;
+    width:100px;
+    color: black;
+    transform:translate(754px,48px);
+    z-index:1;
+    text-align: center;
+}
+#과학관{
+    position:absolute;
+    height:94px;
+    width:94px;
+    border: 3px solid;
+    transform: translate(754px,44px);
+    z-index:1;
+}
+#대강당글씨{
+    position:absolute;
+    width:100px;
+    color: black;
+    transform:translate(793px,198px);
+    z-index:1;
+    text-align: center;
+}
+#대강당{
+    position:absolute;
+    height:180px;
+    width:140px;
+    border: 3px solid;
+    transform: translate(770px,150px);
+    z-index:1;
+}
+#대광중학교글씨{
+    position:absolute;
+    width:10px;
+    color: black;
+    transform:translate(649px,88px);
+    z-index:1;
+    text-align: center;
+}
+#대광중학교{
+    position:absolute;
+    height:388px;
+    width:44px;
+    border: 3px solid;
+    transform: translate(640px,28px);
+    z-index:1;
+}
+#나들목가족도서관{
+    position:absolute;
+    width:100px;
+    color: black;
+    transform:translate(480px,332px);
+    z-index:1;
+    text-align: center;
+}
+#나들목가족도서관위쪽{
+    position:absolute;
+    border-bottom: 84px solid rgb(0,0,0,1);
+    border-left: 110px solid transparent;
+    transform: translate(430px,256px) rotateZ(-33deg);
+    z-index:1;
+}
+#나들목가족도서관위쪽가리개{
+    position:absolute;
+    border-bottom: 82px solid rgb(255,255,255,1);
+    border-left: 105px solid transparent;
+    transform: translate(434px,261px) rotateZ(-32.5deg);
+    z-index:1;
+}
+#나들목가족도서관중간{
+    position:absolute;
+    height:96px;
+    width:103px;
+    border-right: 3px solid;
+    border-left: 3px solid;
+    transform: translate(480px,325px) rotateZ(-33deg);
+    z-index:1;
+}
+#나들목가족도서관아래{
+    position:absolute;
+    height:138px;
+    width:62px;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    border-left: 3px solid;
+    transform: translate(546px,411px) rotateZ(-33deg);
+    z-index:1;
+}
+#나들목가족도서관오른쪽{
+    position:absolute;
+    height:68px;
+    width:40px;
+    border-top: 3px solid;
+    transform: translate(586px,387px) rotateZ(-33deg);
+    z-index:1;
+}
+#예능관{
+    position:absolute;
+    width:100px;
+    color: black;
+    transform:translate(1182px,400px);
+    z-index:1;
+}
+#예능관윗쪽{
+    position:absolute;
+    height:64px;
+    width:62px;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-top-right-radius:100%;
+    transform: translate(1176px,380px);
+    z-index:1;
+}
+#예능관아랫쪽{
+    position:absolute;
+    height:34px;
+    width:44px;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    transform: translate(1176px,446px);
+    z-index:1;
+}
+#예능관아래오른쪽{
+    position:absolute;
+    height:20px;
+    width:34px;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    border-right: 3px solid;
+    transform: translate(1242px,444px);
+    z-index:1;
+}
+#예능관아래오른쪽아래{
+    position:absolute;
+    height:12px;
+    width:20px;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    transform: translate(1220px,467px);
+    z-index:1;
+}
+#본관{
+    position:absolute;
+    width:100px;
+    color: black;
+    transform:translate(516px,225px);
+    z-index:1;
+}
+#본관왼쪽위{
+    position:absolute;
+    height:162px;
+    width:44px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    transform: translate(974px,247px);
+    z-index:1;
+}
+#본관왼쪽위선{
+    position:absolute;
+    height:162px;
+    width:33px;
+    border-top: 3px solid;
+    transform: translate(974px,247px);
+    z-index:1;
+}
+#본관왼쪽위선계단{
+    position:absolute;
+    height:30px;
+    width:14px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    transform: translate(1004px,217px);
+    z-index:1;
+}
+#본관화장실왼쪽오른쪽{
+    position:absolute;
+    height:18px;
+    width:44px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    transform: translate(1004px,200px);
+    z-index:1;
+}
+#본관화장실윗쪽{
+    position:absolute;
+    height:18px;
+    width:48px;
+    border-top: 3px solid;
+    transform: translate(1004px,200px);
+    z-index:1;
+}
+#본관화장실아랫쪽{
+    position:absolute;
+    height:18px;
+    width:33px;
+    border-bottom: 3px solid;
+    transform: translate(1021px,199px);
+    z-index:1;
+}
+#본관아래윗쪽{
+    position:absolute;
+    height:70px;
+    width:82px;
+    border-bottom: 3px solid;
+    transform: translate(1021px,336px);
+    z-index:1;
+}
+#본관왼쪽오른쪽아래{
+    position:absolute;
+    height:44px;
+    width:170px;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    transform: translate(974px,408px);
+    z-index:1;
+}
+#본관아래{
+    position:absolute;
+    height:70px;
+    width:176px;
+    border-bottom: 3px solid;
+    transform: translate(974px,382px);
+    z-index:1;
+}
+#본관오른쪽{
+    position:absolute;
+    height:70px;
+    width:44px;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    transform: translate(1100px,335px);
+    z-index:1;
+}
+
+
+
+#운동장바깥{
+    height:353px;
+    width:218px;
+    position:absolute;
+    border: 1px solid;
+    border-radius:10%;
+    border-color: rgb(255, 255, 255, 1);
+    transform: translate(799px,434px) rotateZ(90deg);
+    z-index: 2;
+    background-color: rgb(201, 95, 95,1);
+}
+#운동장안쪽{
+    height:342px;
+    width:208px;
+    position:absolute;
+    border: 1px solid;
+    border-radius:10%;
+    border-color: rgb(255, 255, 255, 1);
+    transform: translate(804px,440px) rotateZ(90deg);
+    z-index: 2;
+    background-color: ;
+}
+#축구장{
+    height:332px;
+    width:198px;
+    position:absolute;
+    border: 1px solid;
+    border-radius:10%;
+    border-color: white;
+    transform: translate(809px,445px) rotateZ(90deg);
+    z-index: 2;
+    background-color: rgb(31, 163, 104,1);
+}
+#축구장바깥선{
+    height:298px;
+    width:186px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(815px,462px) rotateZ(90deg);
+    z-index: 2;
+}
+#축구장가운데선{
+    height:1px;
+    width:186px;
+    position:absolute;
+    transform: translate(816px,612px) rotateZ(90deg);
+    background-color: white;
+    z-index: 2;
+}
+
+#축구장가운데원{
+    height:54px;
+    width:54px;
+    position:absolute;
+    border: 1px solid;
+    border-radius: 100%;
+    border-color:white;
+    transform: translate(881px,584px);
+    z-index: 2;
+}
+#축구장왼쪽반원{
+    height:54px;
+    width:54px;
+    position:absolute;
+    border: 1px solid;
+    border-radius:100px;
+    border-color:white;
+    transform: translate(766px,584px);
+    z-index: 2;
+}
+#축구장오른쪽반원{
+    height:54px;
+    width:54px;
+    position:absolute;
+    border: 1px solid;
+    border-radius:100px;
+    border-color:white;
+    transform: translate(997px,584px);
+    z-index: 2;
+}
+#축구장왼쪽큰박스{
+    height:120px;
+    width:47px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(759px,551px);
+    background-color: rgb(31, 163, 104,1);
+    z-index: 3;
+}
+#축구장오른쪽큰박스{
+    height:120px;
+    width:47px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(1010px,551px);
+    background-color: rgb(31, 163, 104,1);
+    z-index: 3;
+}
+#축구장왼쪽작은박스{
+    height:58px;
+    width:17px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(759px,582px);
+    background-color: rgb(31, 163, 104,1);
+    z-index: 3;
+}
+#축구장오른쪽작은박스{
+    height:58px;
+    width:17px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(1040px,582px);
+    background-color: rgb(31, 163, 104,1);
+    z-index: 3;
+}
+#농구장바깥선{
+    height:150px;
+    width:80px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:5%;
+    transform: translate(1135px,531px) rotateZ(53deg);
+    background-color: rgb(33, 82, 156,1);
+    z-index: 2;
+}
+#농구장안쪽선{
+    height:108px;
+    width:62px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:;
+    transform: translate(1156px,543px) rotateZ(53deg);
+    background-color: rgb(0, 208, 255,1);
+    z-index: 2;
+}
+#농구장가운데선{
+    height:1px;
+    width:62px;
+    position:absolute;
+    background-color:white;
+    transform: translate(1158px,596px) rotateZ(53deg);
+    z-index: 2;
+}
+#농구장가운데원{
+    height:14px;
+    width:14px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:100%;
+    transform: translate(1181px,589px) rotateZ(53deg);
+    z-index: 2;
+}
+#농구장왼쪽3점라인박스{
+    height:8px;
+    width:50px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:;
+    transform: translate(1122px,623px) rotateZ(53deg);
+    z-index: 2;
+}
+#농구장왼쪽3점라인박스가리개{
+    height:8px;
+    width:50px;
+    position:absolute;
+    transform: translate(1126px,622px) rotateZ(53deg);
+    background-color: rgb(0, 208, 255,1);
+    z-index: 3;
+}
+#농구장오른쪽3점라인박스{
+    height:8px;
+    width:50px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:;
+    transform: translate(1202px,563px) rotateZ(53deg);
+    z-index: 2;
+}
+#농구장오른쪽3점라인박스가리개{
+    height:8px;
+    width:50px;
+    position:absolute;
+    transform: translate(1200px,566px) rotateZ(53deg);
+    background-color: rgb(0, 208, 255,1);
+    z-index: 3;
+}
+#농구장오른쪽3점라인위{
+    height:22px;
+    width:25px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-bottom-left-radius:100%;
+    transform: translate(1194px,556px) rotateZ(53deg);
+    z-index: 2
+}
+#농구장오른쪽3점라인아래{
+    height:22px;
+    width:25px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-bottom-right-radius:100%;
+    transform: translate(1209px,576px) rotateZ(53deg);
+    z-index: 2
+}
+#농구장오른쪽3점라인가리개{
+    height:3px;
+    width:25px;
+    position:absolute;
+    transform: translate(1204px,576px) rotateZ(143deg);
+    background-color: rgb(0, 208, 255,1);
+    z-index: 3;
+}
+#농구장왼쪽3점라인위{
+    height:22px;
+    width:25px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-top-left-radius:100%;
+    transform: translate(1140px,596px) rotateZ(53deg);
+    z-index: 2
+}
+#농구장왼쪽3점라인아래{
+    height:22px;
+    width:25px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-top-right-radius:100%;
+    transform: translate(1155px,616px) rotateZ(53deg);
+    z-index: 2
+}
+#농구장왼쪽3점라인가리개{
+    height:3px;
+    width:25px;
+    position:absolute;
+    transform: translate(1147px,617px) rotateZ(143deg);
+    background-color: rgb(0, 208, 255,1);
+    z-index: 3;
+}
+#농구장왼쪽자유투라인{
+    height:20px;
+    width:18px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:;
+    transform: translate(1143px,613px) rotateZ(53deg);
+    background-color: rgb(33, 82, 156,1);
+    z-index: 5;
+}
+#농구장오른쪽자유투라인{
+    height:20px;
+    width:18px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:;
+    transform: translate(1213px,561px) rotateZ(53deg);
+    background-color: rgb(33, 82, 156,1);
+    z-index: 5;
+}
+#농구장왼쪽반원{
+    height:14px;
+    width:14px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:100%;
+    transform: translate(1154px,609px) rotateZ(53deg);
+    z-index: 3;
+}
+#농구장오른쪽반원{
+    height:14px;
+    width:14px;
+    position:absolute;
+    border: 1px solid;
+    border-color:white;
+    border-radius:100%;
+    transform: translate(1206px,571px) rotateZ(53deg);
+    z-index: 3;
+}
+
+
+
+
+#운동장바깥선{
+    height:353px;
+    width:218px;
+    position:absolute;
+    border: 1px solid;
+    border-radius:10%;
+    border-color: rgb(255, 255, 255, 1);
+    transform: translate(799px,434px) rotateZ(90deg);
+    z-index: 3;
+}
+#운동장안쪽선{
+    height:342px;
+    width:208px;
+    position:absolute;
+    border: 1px solid;
+    border-radius:10%;
+    border-color: rgb(255, 255, 255, 1);
+    transform: translate(804px,440px) rotateZ(90deg);
+    z-index: 3;
+}
+#box5{
+    height: 418px;
+    width:4px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(908px,285px) rotateZ(90deg);
+    z-index: 2;
+    background-color: rgb(201, 95, 95,1);
+}
+#box4{
+    height: 418px;
+    width:4px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(908px,290px) rotateZ(90deg);
+    z-index: 2;
+    background-color: rgb(201, 95, 95,1);
+}
+#box6{
+    height: 418px;
+    width:4px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(908px,295px) rotateZ(90deg);
+    z-index: 2;
+    background-color: rgb(201, 95, 95,1);
+}
+#box7{
+    height: 418px;
+    width:4px;
+    position:absolute;
+    border: 1px solid;
+    border-color: white;
+    transform: translate(908px,300px) rotateZ(90deg);
+    z-index: 2;
+    background-color: rgb(201, 95, 95,1);
+}
+#뒷배경{
+    position:relative;
+    transform: translate(495px,-200px) rotateZ(278deg);
+    z-index: 0;
+}
